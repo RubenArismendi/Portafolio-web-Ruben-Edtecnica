@@ -1,0 +1,198 @@
+body{
+    background-color: rgba(225,234,243,255);
+}
+h1,h2,h3,p{
+    text-align: center;
+}
+h3{
+    color: blue;
+}
+
+.navegacion{
+    background-color: rgb(13, 57, 145);
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-around;
+}
+.navegacion a{
+    text-decoration:none;
+    color: white;
+   font-weight: bold;
+}
+.navegacion a:hover{
+    background-color: white;
+    color: blue;
+    margin-bottom: 0;
+}
+
+.under-nav{
+    color: white;
+    margin: 0%;
+    background: url(imagenDeFondo.jpeg);
+    text-align: center;
+    padding-bottom: 145px;
+}
+
+.under-nav h2{
+    margin: 0%;
+    padding-top: 120px;
+}
+
+.under-nav i{
+    font-size: 80px;
+    padding-top: 20px;
+}
+
+.under-nav p{
+    display: inline;
+}
+.under-nav button{
+    display: block;
+    background-color: rgb(13, 57, 145);
+    color: white;
+    border:  rgb(13, 57, 145);
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 46%;
+    margin-top: 20px;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+main h2{
+    padding-top: 25px
+}
+.izquierda.centro.derecha{
+    width: 33.3%;
+   
+}
+
+.padre-main{
+    display: flex;
+    margin: 5%;
+}
+.padre-main i{
+  font-size: 45px;
+padding-top: 36%;
+} 
+
+.paint-icon{
+    background-color:rgb( 7, 106, 255);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 115px;
+}
+
+.centro{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.android-apple-icon{
+    background-color:rgb( 7, 106, 255);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+   margin-left: 115px;
+} 
+
+.android-apple-icon i{
+    margin: 15px;
+    padding-top: 42px;
+}
+
+/*estilos del formmulario*/
+
+.form-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario{
+    background-color: rgb(170,168,168);
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.formulario fieldset{
+    border: none;
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 90%;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #266dfc;
+}
+
+.campos-container-1{
+    justify-content: center;
+    text-align: center;
+}
+
+.campo-container-2{
+    justify-content: center;
+    text-align: center;
+}
+.campo-1 label{
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 5px;
+    text-align: left;
+}
+.campo-1-2 label{
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 5px;
+    text-align: left;
+}
+.campo-2 label{
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 5px;
+    text-align: left;
+}
+
+.campo-1 input{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 5px 53px;
+}
+
+.campo-1-2 input{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 5px 53px;
+}
+
+.campo-2 input{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 5px 53px;
+}
+.campo-2 textarea{
+    border-radius: 0.3rem;
+    border: none;
+    width: 91%;
+    height: 8rem;
+    margin: 0.5rem;
+}
