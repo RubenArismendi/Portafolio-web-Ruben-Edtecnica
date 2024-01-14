@@ -92,7 +92,7 @@ padding-top: 36%;
     height: 160px;
     border-radius: 50%;
     text-align: center;
-    margin-left: 115px;
+    margin-left: 28%;
 }
 
 .centro{
@@ -105,7 +105,7 @@ padding-top: 36%;
     width: 160px;
     height: 160px;
     border-radius: 50%;
-   margin-left: 115px;
+   margin-left: 28%;
 } 
 
 .android-apple-icon i{
@@ -116,83 +116,68 @@ padding-top: 36%;
 /*estilos del formmulario*/
 
 .form-container{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.formulario{
     background-color: rgb(170,168,168);
-    width: 100%;
-    padding: 1.5rem 0.5rem;
+    width: 50%;
+    height: 360px;
+    margin-left: 25%;
     border-radius: 1rem;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.formulario fieldset{
-    border: none;
-}
-
-.formulario legend{
+.form-container legend{
     text-align: center;
     font-size: 90%;
     text-transform: uppercase;
     font-weight: 900;
     color: #266dfc;
+    margin-bottom: 0px;
+    padding-top: 15px;
 }
-
-.campos-container-1{
-    justify-content: center;
-    text-align: center;
-}
-
-.campo-container-2{
-    justify-content: center;
-    text-align: center;
-}
-.campo-1 label{
+.input-form{
+    margin-left: 20px;
     color: white;
-    font-weight: bold;
-    display: block;
-    margin: 5px;
-    text-align: left;
 }
-.campo-1-2 label{
+
+.input-form input{
+   width: 370px;
+   padding: 8px;
+   padding-right: 141px;
+   border: none;
+   border-radius: 0.3rem;
+}
+
+.input-form-1 input{
+    width: 190px;
+    padding: 8px;
+    padding-right: 51px;
+    border: none;
+    border-radius: 0.3rem;
+    margin-top: 4px;
+}
+
+.input-form-1{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
     color: white;
-    font-weight: bold;
-    display: block;
-    margin: 5px;
-    text-align: left;
+    margin-left: 20px;
 }
-.campo-2 label{
+
+textarea{
+    border-radius: 0.3rem;
+}
+
+.input-boton{
+    margin-left: 440px;
+    padding-bottom: 20px;
+}
+.input-boton button{
+    background-color: #266dfc;
     color: white;
-    font-weight: bold;
-    display: block;
-    margin: 5px;
-    text-align: left;
-}
-
-.campo-1 input{
-    border: none;
-    border-radius: 0.3rem;
-    padding: 5px 53px;
-}
-
-.campo-1-2 input{
-    border: none;
-    border-radius: 0.3rem;
-    padding: 5px 53px;
-}
-
-.campo-2 input{
-    border: none;
-    border-radius: 0.3rem;
-    padding: 5px 53px;
-}
-.campo-2 textarea{
     border-radius: 0.3rem;
     border: none;
-    width: 91%;
-    height: 8rem;
-    margin: 0.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
